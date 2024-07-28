@@ -1,0 +1,78 @@
+/* Basic styling for body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    height:25rem;
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:#fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.stopwatch {
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+#pause-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+#reset-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#lap-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
